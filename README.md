@@ -73,9 +73,9 @@ IKVPairsRDD= charlesDickens_RemoveSpaceRDD.map(lambda word: (word,1))
 # reduceByKey() to get (word,count) results
 charlesdickenswordcountRDD = IKVPairsRDD.reduceByKey(lambda acc, value: acc+value)
 ```
-In the next step, we will use the sortbykey that lists the words in the descending order in 'A Tale of Two Cities by Charles Dickens' and printing the top 25 most used words.
+In the next step, we will use the sortbykey that lists the words in the descending order in 'A Tale of Two Cities by Charles Dickens' and printing the top 12 most used words.
 ```
-charlesdickensResults = charlesdickenswordcountRDD.map(lambda x: (x[1], x[0])).sortByKey(False).take(25)
+charlesdickensResults = charlesdickenswordcountRDD.map(lambda x: (x[1], x[0])).sortByKey(False).take(12)
 print(charlesdickensResults)
 ```
 The collect() is used to retrieve all the elements from my dataset.
@@ -104,7 +104,7 @@ sns.barplot(xlabel, ylabel, data=df, palette="cubehelix").set_title(title)
 # Output
 ![Output](https://github.com/SoumyaRao28/waddankeri-pyspark-finalproject/blob/main/Output.PNG)
 # Conclusion 
-The top 15 words in the book of A Tale of Two Cities, by Charles Dickens are {said, mr, one, lorry, upon, defarge, man, littleWords, time, hand, miss, know, two, good, like}. We can say that the author is mainly focussing on individuals(example:defarge) and focusses on work and time.
+The top 12 words in the book of A Tale of Two Cities, by Charles Dickens are {said, mr, one, lorry, upon, defarge, man, littleWords, time, hand, miss, know, two, good, like}. We can say that the author is mainly focussing on individuals(example:defarge) and focusses on work and time.
 
 # References
 [The Project Gutenberg eBook of A Tale of Two Cities, by Charles Dickens](https://www.gutenberg.org/files/98/98-0.txt)
