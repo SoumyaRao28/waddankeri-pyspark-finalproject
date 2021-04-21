@@ -8,6 +8,10 @@ Soumya Chidambar Rao Waddankeri
 Tools: Pyspark, Databricks Notebook, Pandas, MatPlotLib, Seaborn
 Language : Python
 
+# Key Words
+Resilient Distributed Dataset (RDD) - A distributed collection of Objects
+SparkContext(sc) - entry point to any spark functionality.
+
 # Input Source
 [The Project Gutenberg eBook of A Tale of Two Cities, by Charles Dickens](https://www.gutenberg.org/files/98/98-0.txt)
 
