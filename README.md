@@ -102,7 +102,7 @@ plt.figure(figsize=(15,4))
 sns.barplot(xlabel, ylabel, data=df, palette="cubehelix").set_title(title)
 ```
 # Output
-[!Output](https://github.com/SoumyaRao28/waddankeri-pyspark-finalproject/blob/main/Output.PNG)
+![Output](https://github.com/SoumyaRao28/waddankeri-pyspark-finalproject/blob/main/Output.PNG)
 # Conclusion 
 The top 15 words in the book of A Tale of Two Cities, by Charles Dickens are {said, mr, one, lorry, upon, defarge, man, littleWords, time, hand, miss, know, two, good, like}. We can say that the author is mainly focussing on individuals(example:defarge) and focusses on work and time.
 
