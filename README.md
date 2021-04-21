@@ -10,6 +10,7 @@ Language : Python
 
 # Key Words
 Resilient Distributed Dataset (RDD) - A distributed collection of Objects
+
 SparkContext(sc) - entry point to any spark functionality.
 
 # Input Source
