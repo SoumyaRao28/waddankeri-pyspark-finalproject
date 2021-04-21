@@ -104,7 +104,7 @@ sns.barplot(xlabel, ylabel, data=df, palette="cubehelix").set_title(title)
 # Output
 ![Result](https://github.com/SoumyaRao28/waddankeri-pyspark-finalproject/blob/main/Result.PNG)
 # Conclusion 
-The top 12 words in the book of A Tale of Two Cities, by Charles Dickens are {said, mr, one, lorry, upon, defarge, man, littleWords, time, hand, miss, know, two, good, like}. We can say that the author is mainly focussing on individuals(example:defarge) and focusses on work and time.
+The top 12 words in the book of A Tale of Two Cities, by Charles Dickens are {said, mr, one, lorry, upon, defarge, man, littleWords, time, hand, miss, know}. We can say that the author is mainly focussing on individuals(example:defarge) and focusses on work that mostly involve hand and something to do with transportation(lorry),man hours(man, time).
 
 # References
 [The Project Gutenberg eBook of A Tale of Two Cities, by Charles Dickens](https://www.gutenberg.org/files/98/98-0.txt)
